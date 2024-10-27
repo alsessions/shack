@@ -1,0 +1,22 @@
+dateModified: 1729821287
+email:
+  fromEmail: fultonchain@gmail.com
+  fromName: 'Something Shack'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    4fc84ded-7a48-49c6-9d11-da554c6edb40: 'Something Shack' # Something Shack
+    c76cb280-fe74-4438-9fdf-5a97b2fd1227: 'Something Shack' # Something Shack
+system:
+  edition: solo
+  live: true
+  name: 'Something Shack'
+  schemaVersion: 5.3.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

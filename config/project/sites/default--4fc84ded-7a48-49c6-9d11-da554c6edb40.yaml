@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'Something Shack'
+primary: true
+siteGroup: c76cb280-fe74-4438-9fdf-5a97b2fd1227 # Something Shack
+sortOrder: 1
