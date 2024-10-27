@@ -1,4 +1,4 @@
-dateModified: 1729821287
+dateModified: 1730067659
 email:
   fromEmail: fultonchain@gmail.com
   fromName: 'Something Shack'
@@ -6,7 +6,13 @@ email:
 meta:
   __names__:
     4fc84ded-7a48-49c6-9d11-da554c6edb40: 'Something Shack' # Something Shack
+    7190fe0c-afa4-4f00-8e38-bc9f90e01fa2: Simple # Simple
     c76cb280-fe74-4438-9fdf-5a97b2fd1227: 'Something Shack' # Something Shack
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
 system:
   edition: solo
   live: true
