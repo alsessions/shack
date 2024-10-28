@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 36be1c12-dbe1-4ca4-ab2b-c55f7a9db2f7 # Formatted Text
+handle: about
+maxAuthors: 1
+name: About
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  4fc84ded-7a48-49c6-9d11-da554c6edb40: # Something Shack
+    enabledByDefault: true
+    hasUrls: true
+    template: _about.twig
+    uriFormat: about
+type: single

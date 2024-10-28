@@ -1,22 +1,34 @@
-dateModified: 1730067659
+dateModified: 1730077925
 email:
   fromEmail: fultonchain@gmail.com
   fromName: 'Something Shack'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    4d2fa86d-c644-4db8-bc61-708e1867ed8e: 'Nav Link' # Nav Link
+    4f4d5063-dd65-40ee-9130-37458489e8c2: About # About
     4fc84ded-7a48-49c6-9d11-da554c6edb40: 'Something Shack' # Something Shack
+    29d6ce47-ed2d-445a-9b09-23a2f90abb64: 'Home Page' # Home Page
+    36be1c12-dbe1-4ca4-ab2b-c55f7a9db2f7: 'Formatted Text' # Formatted Text
+    6560cde7-ffc4-42e3-ae46-f1e744f79018: Text # Text
     7190fe0c-afa4-4f00-8e38-bc9f90e01fa2: Simple # Simple
+    aec86e34-8e5d-4bed-8150-8eb47068fb97: 'Menu Index' # Menu Index
+    b57c6211-3da5-448f-90da-c69c03cc760c: 'Formatted Text' # Formatted Text
     c76cb280-fe74-4438-9fdf-5a97b2fd1227: 'Something Shack' # Something Shack
 plugins:
   ckeditor:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0.0
+  cp-field-inspect:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
-  name: 'Something Shack'
+  name: 'Drink Shack'
+  retryDuration: null
   schemaVersion: 5.3.0.2
   timeZone: America/Los_Angeles
 users:

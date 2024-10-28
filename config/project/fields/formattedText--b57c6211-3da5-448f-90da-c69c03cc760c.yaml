@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: formattedText
+instructions: null
+name: 'Formatted Text'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  ckeConfig: 7190fe0c-afa4-4f00-8e38-bc9f90e01fa2 # Simple
+  createButtonLabel: null
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: false
+  entryTypes:
+    - 6560cde7-ffc4-42e3-ae46-f1e744f79018 # Text
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field
