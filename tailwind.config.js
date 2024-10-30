@@ -4,7 +4,8 @@ module.exports = {
   content: [],
   theme: {
     fontFamily: {
-      sans: ['Ubuntu', 'sans-serif']
+      sans: [ 'sans-serif'],
+      display: ['DynaPuff', 'sans-serif']
     },
     extend: {},
   },

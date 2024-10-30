@@ -1,9 +1,27 @@
 {% extends "_layouts/_layout.twig" %}
     {% block content %}    
 
-
-    <h1>{{ entry.title }}</h1>
+    <section class="max-w-5xl mx-auto prose prose-lg prose-h1:text-indigo-600 prose-h2:text-indigo-600  mt:40 mb-20 px-4 bg-white/50">
+    <div class="not-prose">
+        <h1 class="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-700 via-green-600 to-red-500 text-center block text-transparent bg-clip-text tracking-wider">The Drink Shack</h1>
+    </div>
     {{ entry.formattedText }}
+    </section>
+
+    <section class="w-full py-10 bg-pink-500">
+        <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto px-4">
+            <div class="bg-white  p-4 rounded">
+                <h2 class="text-center text-3xl">Featured Item</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quisquam iusto impedit neque harum doloremque inventore, sit ipsum itaque praesentium eius laboriosam reprehenderit a molestiae quos odio architecto repellat? Quos.</p>
+            </div>
+            <div class="bg-white  p-4 rounded">
+                <h2 class="text-center text-3xl">Featured Item</h2>
+            </div>
+            <div class="bg-white  p-4 rounded">
+                <h2 class="text-center text-3xl">Featured Item</h2>
+            </div>
+        </div>
+    </section>
 
    
 

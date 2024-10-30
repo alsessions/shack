@@ -1,8 +1,16 @@
-dateModified: 1730077925
+dateModified: 1730325241
 email:
   fromEmail: fultonchain@gmail.com
   fromName: 'Something Shack'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: /var/www/html/web/assets/images
+    type: craft\fs\Local
+    url: '@web/assets/images'
 meta:
   __names__:
     4d2fa86d-c644-4db8-bc61-708e1867ed8e: 'Nav Link' # Nav Link
@@ -10,6 +18,7 @@ meta:
     4fc84ded-7a48-49c6-9d11-da554c6edb40: 'Something Shack' # Something Shack
     29d6ce47-ed2d-445a-9b09-23a2f90abb64: 'Home Page' # Home Page
     36be1c12-dbe1-4ca4-ab2b-c55f7a9db2f7: 'Formatted Text' # Formatted Text
+    55c558b2-0461-4c69-8ecd-f0c71203cbad: Assets # Assets
     6560cde7-ffc4-42e3-ae46-f1e744f79018: Text # Text
     7190fe0c-afa4-4f00-8e38-bc9f90e01fa2: Simple # Simple
     aec86e34-8e5d-4bed-8150-8eb47068fb97: 'Menu Index' # Menu Index

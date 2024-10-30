@@ -1,8 +1,12 @@
 {% extends "_layouts/_layout.twig" %}
 {% block content %}
-    <h1>{{ entry.title }}</h1>
+<section class="max-w-6xl mx-auto prose prose-lg prose-h1:text-indigo-600 prose-h2:text-indigo-600  my-40 px-4 bg-white/50">
+<div class="not-prose">
+    <h1 class="text-3xl md:text-6xl font-bold bg-gradient-to-r from-blue-700 via-green-600 to-indigo-500 inline-block text-transparent bg-clip-text tracking-wider">{{ entry.title }}</h1>
+</div>
     <h2>Good lovin', is what I got!</h2>
     <h3>By the truckload!</h3>
     <h4>And when you get it, you got something!</h4>
     <p>Okey-dokey, we got Craft, <a href="https://tailwindcss.com">Tailwind</a> (with Prose) and <a href="https://alpinejs.org">AlpineJS</a> humming along.</p>
+</section>
     {% endblock %}
