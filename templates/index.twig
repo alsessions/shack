@@ -1,29 +1,39 @@
 {% extends "_layouts/_layout.twig" %}
     {% block content %}    
-
-    <section class="max-w-5xl mx-auto prose prose-lg prose-h1:text-indigo-600 prose-h2:text-indigo-600  mt-32 mb-32 px-4 bg-white/50">
+<div class="py-10" style="background-image:url('assets/images/background-wavy.svg');
+                background-size:cover;
+                background-repeat:no-repeat;
+               
+">
+    <section class="max-w-5xl mx-auto prose prose-lg prose-h1:text-indigo-900 prose-h2:text-indigo-800 text-center  py-20 px-4 bg-white/40 backdrop-blur" >
     <div class="not-prose">
-        <h1 class="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-700 via-green-600 to-red-500 text-center block text-transparent bg-clip-text tracking-wider mb-32">The Drink Shack</h1>
+        <h1 class="text-5xl md:text-8xl font-bold text-blue-700 text-center block tracking-wider mb-10">The Drink Shack</h1>
     </div>
     {{ entry.formattedText }}
     </section>
-
-    <section class="w-full py-10 bg-pink-500">
+</div>
+    <section class="w-full py-10 md:py-20 bg-pink-500">
         <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto px-4">
             <div class="bg-white  p-4 rounded">
-                <h2 class="text-center text-3xl">Featured Item</h2>
+                <h2 class="text-center text-3xl text-blue-700 uppercase tracking-wider mb-4">Featured Item</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quisquam iusto impedit neque harum doloremque inventore, sit ipsum itaque praesentium eius laboriosam reprehenderit a molestiae quos odio architecto repellat? Quos.</p>
             </div>
             <div class="bg-white  p-4 rounded">
-                <h2 class="text-center text-3xl">Featured Item</h2>
+                <h2 class="text-center text-3xl text-blue-700 uppercase tracking-wider mb-4">Featured Item</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quisquam iusto impedit neque harum doloremque inventore, sit ipsum itaque praesentium eius laboriosam reprehenderit a molestiae quos odio architecto repellat? Quos.</p>
             </div>
             <div class="bg-white  p-4 rounded">
-                <h2 class="text-center text-3xl">Featured Item</h2>
+                <h2 class="text-center text-3xl text-blue-700 uppercase tracking-wider mb-4">Featured Item</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quisquam iusto impedit neque harum doloremque inventore, sit ipsum itaque praesentium eius laboriosam reprehenderit a molestiae quos odio architecto repellat? Quos.</p>
             </div>
         </div>
     </section>
 
-   
+   <section class="w-full mx-auto bg-black text-yellow-500 min-h-96 mb-40">
+    <div class="max-w-6xl py-10 px-4 mx-auto">
+        <p>Howdy</p>
+    </div>
+   </section>
 
 
     {% endblock %}
